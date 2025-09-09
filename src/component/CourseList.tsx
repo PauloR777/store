@@ -6,7 +6,7 @@ const CourseList = () => {
 
   return (
     <div>
-      <h2>รายวิชาที่ลงทะเบียน</h2>
+      <h2>---รายวิชาที่ลงทะเบียน---</h2>
       <ul>
         {courses.map((c) => (
           <li key={c.id}>
